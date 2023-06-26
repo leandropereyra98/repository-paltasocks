@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +17,12 @@
 </head>
 
 
-<body>
+<body class="cuerpo">
     <div class="contenttottal">
     
     <header class="header2">
         
-        <nav> 
+        <nav class="col-md-8"> 
             <ul class="barradenav">
                 <li >INICIO</li>
                 <li><a href="pages/productos.html">PRODUCTOS</a></li>
@@ -32,40 +34,74 @@
         </nav>
 
     </header>
+
+<div>
+    <H1 class="tit"> Palta Socks</H1>
+    <h2 class="tit"> ENCONTRA LO QUE BUSCABAS</h2>
+    <p class="initial">¡Bienvenidos a nuestra página web! En Palta Socks, nos enorgullece ofrecerte una amplia selección de productos para tu comodidad y estilo. Desde medias de alta calidad hasta pantuflas acogedoras, gorros y gorras elegantes, así como pijamas cómodas y modernas, encontrarás todo lo que necesitas para añadir un toque especial a tu vestuario y momentos de relajación. Nos apasiona brindarte productos de la más alta calidad, diseñados pensando en la comodidad, el estilo y la durabilidad. Nuestro objetivo es satisfacer tus necesidades y superar tus expectativas en cada compra. Además, nos enorgullece ofrecer envíos a todo el país y la opción de retiro gratuito en nuestras sucursales. También te brindamos la facilidad de pagar en hasta 3 y 6 cuotas sin interés, sujeto a las condiciones de cada banco. Puedes confiar en que en Palta Socks, tu seguridad es nuestra prioridad, protegiendo tus datos en un sitio seguro. Explora nuestro catálogo y descubre los productos que te permitirán expresar tu estilo y sentirte cómodo en cualquier ocasión.
+         ¡Gracias por visitarnos y esperamos que disfrutes de tu experiencia de compra con nosotros!</p>
+
+</div>
     
-    <div class="presentacion">
-        <H1 class="tit"> Palta Socks</H1>
-        <h2 class="tit"> TU LUGAR DE MEDIAS</h2>
+    <div class="cont">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/carru.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MEDIAS</h5>
+              <p class="car">Variedad</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/gorros1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>GORROS</h5>
+              <p class="car">Los mejores para el invierno</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carru2.peg.jfif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ENCONTRA TU DIBUJO ANIMADO PREFERIDO</h5>
+              <p class="car">Variedad en dibujitos</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
 
-    
+    <p class="envio"> ENVÍOS A TODO EL PAÍS (Retiro gratis en sucursales) - HASTA 3 Y 6 CUOTAS SIN INTERÉS(Sujetas a cada banco) - SITIO SEGURO(Protegemos tus datos)</p>
 
-     <section class="seccionprincipal">
-        <iframe class="video" src="images/PALTA SOCKS.mp4" frameborder="0"></iframe>
-        <p> ENVIOS A TODO EL PAIS - HASTA 3 Y 6 CUOTAS SIN INTERES - SITIO SEGURO</p>
-        </section>
-    
-    <section class="seccion4">
 
-        <h3 class="tit"> ¿QUE PODES ENCONTRAR EN PALTA SOCKS?</h3>
-        <p class="imagen">MEDIAS <img class="fotos" src="images/media01.png" ></p>
-        <p class="imagen">PANTUFLAS <img class="fotos" src="images/pantu1.jpg"></p>
+    </div>
+
+  <p></p>
+
+
+
+
+    <footer class="piedepag container-total">
        
-        <p class="imagen1">GORROS <img class="fotos"  src="images/gorro1.png"></p>
-        <p class="imagen1">Mas productos <img class="fotos" src="images/suma1.png"></p>
-
-    </section>
-
- 
-
-    
-    <footer class="piedepag">
         <a target="_blank" href="https://www.instagram.com/palta.socks/">HAZ CLICK AQUI PARA REALIZAR COMPRAS EN NUESTRO INSTAGRAM</a>
         <p> @PALTA SOCKS 2023 COPYRIGHT</p>
     </footer>
-</div>
 
 
+     
 
 </body>
 </html>
