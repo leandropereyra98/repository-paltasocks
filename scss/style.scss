@@ -1,78 +1,59 @@
-
-/* variable que no utilize solo para que sepan que se utilizar variables
-
-
-$colorrepetido: color #7F5539; 
-
-#h11{ 
-    $colorrepetido;
-}
-*/
-
 html {
     font-family: "Montserrat", sans-serif;
     font-family: "Sigmar", cursive;
   }
   
   body {
-    background-color: #f0ead2
+    background-color: #f0ead2;
+    overflow-x: hidden;
+    
   }
-
+  
   header {
     text-align: center;
     width: 100%;
     height: 250px;
-    background:
-    url("../images/banner2.png") 100% 100%; 
+    background: url("../images/banner2.png") 100% 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #6a994e;
- }
-
- .principal{
+  }
+  
+  .principal {
     justify-content: center;
-}
-   
-    
- .mein{
-    display: flex ;
+  }
+  
+  .mein {
+    display: flex;
     justify-content: center;
     text-align: center;
-}
- 
-
-
-header a {
+  }
+  
+  header a {
     color: #EDE0D4;
     text-decoration: none;
-}
-
-
-main section {
-    
+  }
+  
+  main section {
     text-align: center;
-
-}
-
-.main h1{
+  }
+  
+  .main h1 {
     text-align: center;
-}
-
-.imagen{
+  }
+  
+  .imagen {
     color: #7F5539;
     display: inline;
     text-decoration: underline;
     font-size: larger;
-    
-}
-
-#h11{
+  }
+  
+  .h11 {
     color: #6c584c;
-    
-}
-
-
-#img4{
+  }
+  
+  .img4 {
     justify-content: center;
     width: 300px;
     height: 300px;
@@ -81,84 +62,65 @@ main section {
     border-color: #6c584c;
     border-radius: 150px;
     padding: 10px;
-   
-}
-
-
-.initial{
+  }
+  
+  .initial {
     text-align: center;
-    color: #465362;
-       
-}
-
-
-
-.tit{
+    color: #588157;
+  }
+  
+  .tit {
     text-align: center;
     text-decoration: underline;
     color: #6c584c;
-}
-
-.sitio{
+  }
+  
+  .sitio {
     text-align: center;
     color: #6c584c;
-}
-
-.guia{
+  }
+  
+  .guia {
     color: #6c584c;
-}
-
-H3{
+  }
+  
+  H3 {
     text-align: center;
     color: #606C38;
     font-size: x-large;
-    
-}
-
-/* ejemplo de mixin que no quise utilizar en mi pagina, no encontre donde usar extend */
-
-/* @mixin tamaños ($heigth $width){
-    height: $heigth
-    width: $width }
-    
-    .tablas{
-    @include tamaños(300px,800px)
+  }
+  
+  
+  .tablas {
+    width: 800px;
+    height: 300px;
     border: 6px solid #ff9914;
-    }
-    */
-
-.tablas{
-  width: 800px;
-  height: 300px;
-border: 6px solid #ff9914;
-}
-
-th, td {
-        width: 25%;
-        text-align: left;
-        vertical-align: top;
-        border: 1px solid #7F5539;
-    }
-
-    .ubi{
-       text-align: center;
-    }
-
-    .ubication{
+  }
+  
+  th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #7F5539;
+  }
+  
+  .ubi {
+    text-align: center;
+  }
+  
+  .ubication {
     height: 500px;
     width: 500px;
-     }
-
-
-.imagen1{
+  }
+  
+  .imagen1 {
     display: inline;
     color: #7F5539;
     text-decoration: underline;
     font-size: larger;
-    
-}
-
-.fotos{
+  }
+  
+  .fotos {
     width: 200px;
     height: 200px;
     border-style: solid;
@@ -166,150 +128,133 @@ th, td {
     border-color: #6c584c;
     border-radius: 150px;
     padding: 10px;
-    
-}
-
-
-#sobrenos{
+  }
+  
+  #sobrenos {
     text-align: center;
     justify-content: center;
-}
-
-#slogan{
+  }
+  
+  #slogan {
     font-size: x-large;
     color: #6c584c;
     text-decoration: underline;
-
-}
-
-
-
-.cuerpo{font-family: 'Montserrat', sans-serif;
-    font-family: 'Sigmar', cursive;
-
-}
-
-
-
-.cont{
+  }
+  
+  .cuerpo {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Sigmar", cursive;
+  }
+  
+  .cont {
     display: flex;
     text-align: center;
     justify-content: center;
     width: 100%;
-}
-   
-
-   
-.imagenesproductos{
+  }
+  
+  .imagenesproductos {
     justify-content: center;
     text-align: center;
     height: 300px;
     width: 300px;
     border-radius: 80px;
-    cursor:pointer
-    
-}
-
-.parrafop{
+    cursor: pointer;
+  }
+  
+  .parrafop {
     text-align: center;
-}
-
-
-.barradenav{
+  }
+  
+  .barradenav {
     display: flex;
     justify-content: space-evenly;
-    
-}
-
-.envio{
-    text-align: center;
-}   
-
-h5{
-    color: #424c55;
+  }
   
-
-   }
-
-.car{
+  .envio {
+    text-align: center;
+  }
+  
+  h5 {
+    color: #424c55;
+  }
+  
+  .car {
     color: #ff9914;
   }
-
-.parra{
+  
+  .parra {
     text-align: center;
     color: #ff9914;
     text-decoration: underline;
-}
-
-.productos{
-   text-align: center;
-}
-
-footer{
-    background-color:  #6a994e;
+  }
+  
+  .productos {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #6a994e;
     padding: 10px;
     width: 100%;
     height: 100px;
-}
-    
-
-footer p {
-        color: #EDE0D4;
-        text-align: right;
-    }
-
-footer a {
-        color: #ff9914;
-        text-decoration: none;
-}
-
-
-section  {
+  }
+  
+  footer p {
+    color: #EDE0D4;
     text-align: right;
-}
-
-
-li{ display: inline;
-
-
-}
-
-
-
-@media screen and (max-width: 768px){
-    
-    .barradenav{
-        display: flex;
-        flex-direction: row;
+  }
+  
+  footer a {
+    color: #ff9914;
+    text-decoration: none;
+  }
+  
+  section {
+    text-align: right;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .barradenav {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
     }
-    
-    .piedepagina{
-        background-color: #BC6C25;
-
+    .piedepagina {
+      background-color: #BC6C25;
+    }
+    body {
+      background-color: wheat;
+      overflow-x: hidden;
+    }
+    .tablas {
+      width: 300px;
+      height: 100px;
+      border: 3px solid #BC6C25;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+     
+    .barradenav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+    .tablas {
+      width: 300px;
+      height: 100px;
+      border: 3px solid #BC6C25;
+    }
+    .barradenav {
+      display: flex;
+      flex-direction: column;
     }
 
-    body{
-        background-color: wheat;
+    body{ overflow-x: hidden;
     }
-    .tablas{
-        width: 300px;
-        height: 100px;
-        border: 3px solid #BC6C25;}
-    }
-
-    
-
-
-@media screen and (max-width: 500px){
-    .tablas{
-    width: 300px;
-    height: 100px;
-    border: 3px solid #BC6C25;
-    }
-
-    .barradenav{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
+  }

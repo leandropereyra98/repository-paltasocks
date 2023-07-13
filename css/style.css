@@ -1,13 +1,3 @@
-@charset "UTF-8";
-/* variable que no utilize solo para que sepan que se utilizar variables
-
-
-$colorrepetido: color #7F5539; 
-
-#h11{ 
-    $colorrepetido;
-}
-*/
 html {
   font-family: "Montserrat", sans-serif;
   font-family: "Sigmar", cursive;
@@ -15,6 +5,7 @@ html {
 
 body {
   background-color: #f0ead2;
+  overflow-x: hidden;
 }
 
 header {
@@ -57,11 +48,11 @@ main section {
   font-size: larger;
 }
 
-#h11 {
+.h11 {
   color: #6c584c;
 }
 
-#img4 {
+.img4 {
   justify-content: center;
   width: 300px;
   height: 300px;
@@ -74,7 +65,7 @@ main section {
 
 .initial {
   text-align: center;
-  color: #465362;
+  color: #588157;
 }
 
 .tit {
@@ -98,16 +89,7 @@ H3 {
   font-size: x-large;
 }
 
-/* ejemplo de mixin que no quise utilizar en mi pagina, no encontre donde usar extend */
-/* @mixin tamaños ($heigth $width){
-    height: $heigth
-    width: $width }
 
-    .tablas{
-    @include tamaños(300px,800px)
-    border: 6px solid #ff9914;
-    }
-    */
 .tablas {
   width: 800px;
   height: 300px;
@@ -238,21 +220,32 @@ li {
 @media screen and (max-width: 768px) {
   .barradenav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: left;
   }
   .piedepagina {
     background-color: #BC6C25;
   }
   body {
     background-color: wheat;
+    overflow-x: hidden;
   }
   .tablas {
     width: 300px;
     height: 100px;
     border: 3px solid #BC6C25;
-  }
 }
+
+
+}
+
 @media screen and (max-width: 500px) {
+   
+  .barradenav {
+  display: flex;
+  flex-direction: column;
+}
+
   .tablas {
     width: 300px;
     height: 100px;
@@ -262,6 +255,9 @@ li {
     display: flex;
     flex-direction: column;
   }
+
+  body{ overflow-x: hidden;
+  }
 }
 
-/*# sourceMappingURL=style.css.map */
+
